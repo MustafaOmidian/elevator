@@ -1,6 +1,3 @@
-// elevator.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
 #include <iostream>
 #include <cstdlib>
@@ -85,6 +82,7 @@ int main()
 	 {
 		 cout<<"\n Time To Get Out , Passenger!We Are arrived To Floor "<<Current_FLOOR<<"\n";
 		 PASS_NUM-=1;
+		 cout<<"\n Passengers Are "<<PASS_NUM<<" Persons"<<"\n";
 		}}}
 	 }
 	cout<<"\n Its Done !!";
@@ -128,6 +126,4 @@ int Get_Current_FLOOR()
 		 return false;
 	 }
 	 else
-	 {return true;}
- }}
-
+	 {return true;}}
