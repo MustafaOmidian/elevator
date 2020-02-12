@@ -25,7 +25,8 @@ bool Calc_Values(int PASS_NUM,int PASS_WEIGHT);
 
 int main()
 {
-	cout<<"==========================================================="<<"\n"<<"ELEVATOR PROJECT WITH WEIGHT LIMIT CODED BY @NICOTEENE";
+	cout<<"==========================================================="<<"\n";
+	cout<<"ELEVATOR PROJECT WITH WEIGHT LIMIT CODED BY @NICOTEENE";
 	cout<<"\n==========================================================="<<"\n";
 	int i=0;
 	int GOAL_FLO[10];
